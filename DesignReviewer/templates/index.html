@@ -34,6 +34,79 @@
             background-color: #007bff;
             border-color: #007bff;
         }
+        /* Style for the chatbox container */
+        .chatbox {
+            width: 500px;
+            height: 400px;
+            position: fixed; /* Fixed position for floating */
+            bottom: 80px; /* Distance from the bottom */
+            right: 20px; /* Distance from the right */
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: none; /* Hidden by default */
+            z-index: 1000; /* Ensure it's on top */
+        }
+
+        /* Style for the chat messages */
+        .messages {
+            height: 300px;
+            border: 1px solid #eee;
+            padding: 10px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+        }
+        
+        .message {
+            margin-bottom: 10px;
+        }
+
+        .usage {
+            color: #ccc;
+            font-style: italic;
+        }
+        /* Input container */
+        .input-container {
+            display: flex;
+        }
+
+        .input-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .input-container button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-container button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style for the chat icon */
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #007BFF;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+            font-size: 24px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -48,8 +121,69 @@
             </div>
         </form>
     </div>
+    <!-- Chat icon -->
+    <div class="chat-icon" onclick="toggleChatbox()">💬</div>
+
+    <!-- Chatbox (Initially hidden) -->
+    <div class="chatbox" id="chatbox">
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="userMessage" placeholder="Type your message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <div id="costout" class="usage"> Watch out for the cost </div>
+    </div>
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Function to toggle the visibility of the chatbox
+        function toggleChatbox() {
+            const chatbox = document.getElementById('chatbox');
+            if (chatbox.style.display === 'none' || chatbox.style.display === '') {
+                chatbox.style.display = 'block';
+            } else {
+                chatbox.style.display = 'none';
+            }
+        }
+
+        // Function to send message and receive response from server
+        function sendMessage() {
+            const userMessage = document.getElementById('userMessage').value;
+            const messagesDiv = document.getElementById('messages');
+            const costoutDiv = document.getElementById('costout')
+
+            if (userMessage.trim() !== '') {
+                // Display the user's message
+                const userMsgDiv = document.createElement('div');
+                userMsgDiv.className = 'message';
+                userMsgDiv.innerHTML = '<strong>You:</strong> ' + userMessage;
+                messagesDiv.appendChild(userMsgDiv);
+
+                // Send the message to the server
+                fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: userMessage })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Display the response from the server
+                    const botMsgDiv = document.createElement('div');
+                    botMsgDiv.className = 'message';
+                    botMsgDiv.innerHTML = '<strong>Bot:</strong> ' + data.response;
+                    messagesDiv.appendChild(botMsgDiv);
+
+                    // Scroll to the bottom
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                    costoutDiv.innerHTML = '<p> Cost Incurred $ :'+ JSON.stringify(data.usage.total_cost)+' </p>';
+                });
+
+                // Clear the input field
+                document.getElementById('userMessage').value = '';
+            }
+        }
+    </script>
 </body>
 </html>

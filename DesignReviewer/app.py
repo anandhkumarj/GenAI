@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders.pdf import PyPDFLoader
@@ -6,6 +6,7 @@ from langchain_openai import OpenAI
 from langchain.indexes import VectorstoreIndexCreator
 from langchain_community.callbacks.manager import get_openai_callback
 from langchain.chains import RetrievalQA
+from langchain.chains import ConversationalRetrievalChain
 import PyPDF2
 import json
 import os
@@ -81,7 +82,7 @@ def check_compliance(content, vectorstore):
     {content}
     <end>
     Please also highlight grammatically incorrect statements and abmiguous statements.
-    Validate if all the necessary sections are present, specify which sections are missing
+    Validate if all the necessary sections of the tech design are present, specify which sections are missing
     Finally review the content and provide the feedback checking if the document is compliant with the standards defined.
     
     Also give the final verdict as "Approved", only if it met all the compliances or "Rejected" in the format "Final Verdit : <Verdict>
@@ -95,6 +96,32 @@ def check_compliance(content, vectorstore):
         return responseout
 
 
+@app.route('/chat', methods=['POST'])
+def chat():
+    user_message = request.json.get('message')
+    
+    # Example of basic response logic (could be replaced with AI model like GPT)
+    chat_history=[]
+    qa = ConversationalRetrievalChain.from_llm(llm, standard_vectorstore.as_retriever())
+    
+    result = qa.invoke(input={"question":user_message,"chat_history":chat_history})
+    chat_history.append((user_message, result['answer']))
+    cost = ''
+    responsestr = {};
+    if user_message.lower() == "hello":
+        response = "Hi there! How can I help you today?"
+    else:
+        with get_openai_callback() as cb:
+            result = qa.invoke(input={"question":user_message,"chat_history":chat_history})
+            cost = {'total_tokens':cb.total_tokens,'prompt_tokens':cb.prompt_tokens, 'completion_tokens':cb.completion_tokens, 'total_cost':cb.total_cost}
+            print(cost)
+        chat_history.append((user_message, result['answer']))
+        response = result['answer']
+
+    responsestr['response'] = response
+    responsestr['usage'] = cost
+    
+    return jsonify(responsestr)
 
 
 if __name__ == '__main__':
