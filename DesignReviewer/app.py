@@ -17,7 +17,7 @@ app = Flask(__name__)
 f = open('openaikey.txt')
 os.environ["OPENAI_API_KEY"]=f.read()
 # Initialize the LLM 
-llm = OpenAI(temperature=0,max_tokens=1500)
+llm = OpenAI(temperature=0,max_tokens=1500,model='gpt-4o')
 
 # Initialize embeddings using OpenAI
 embeddings = OpenAIEmbeddings()

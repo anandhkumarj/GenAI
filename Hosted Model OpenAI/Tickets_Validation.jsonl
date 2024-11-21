@@ -1,0 +1,193 @@
+{"prompt": " Audio conference not connecting, disconnects after few seconds\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " PC monitor not displaying correctly \n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Keyboard Malfunctioning \n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Hard drive failing to boot \n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Users are unable to connect to the local network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Employee password not working on internal systems\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Cannot reach corporate website from remote location. Need permissions\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unauthorized user trying to access HR system\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Device unable to connect to corporate network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Device is not compliant with corporate security policy\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access cloud environment from home\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Email encryption not working\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Access denied when attempting to log in to extranet application\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wi-fi connection drops frequently\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Phone unable to connect to cellular network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Phone freezing and restarting unexpectedly\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access network resources from laptop\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to join video conference call\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " OS updates not working on the virtual machine\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " User is receiving emails with malicious attachments that are preventing access to inbox\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " User is unable to establish a secure connection to VPN server\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " User is unable to access corporate resources due to VPN connection failure\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Need to enable URL for account\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help disabling an ID\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Assistance needed disabling an ID\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need assistance deleting an ID\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can I get help deleting an ID? \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't access account, need to reset the password\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't remember my password for a game\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Forgotten the password to my account\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't log in, need to reset my password\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Unable to access the internet\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wired connection dropping intermittently\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Receiving 'Connection Refused' error\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to establish remote connection\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wireless connection not working on my laptop\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " WiFi connection keeps dropping\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop won't detect wireless networks\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " How do I share data stored in my account?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " How do I manage data retention policies?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Production cloud not accessible from remote locations\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Data not syncing with Production cloud\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Production cloud server not responding\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Difficulty connecting to Production cloud\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't deallocate SIM card\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help installing a web-based software tool\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Help installing a web-based tool for editing images\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Assistance with web-based tool setup for word processing\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Help installing a web-based program for video streaming\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need to purchase new mouse\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need replacement mouse pad\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need to order new laptop bag\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need to buy new wireless router\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need admin rights to access shared drive\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting admin rights to update software\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need admin rights to access remote servers\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need admin rights to access shared folder\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting admin rights to configure security\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need to install new software\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need to update existing software\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Printer jam issue\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Require instructions to set up guest access\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " How to grant guest access to the network?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting to enable Bluetooth\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting to enable web camera\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help enabling audio output\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting to enable antivirus protection\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help disabling auto-fill\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help setting up Mac OS \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Mac OS setup issues \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help with Mac OS software installation \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't open application on Mac OS \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help with Mac OS application setup \n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Issues connecting to Active Directory server\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Problems logging into Active Directory account\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help implementing new process\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help with implementation of new system\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need assistance implementing new workflow\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help with implementation of new policy\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need assistance implementing new procedure\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need assistance getting implementation started\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help with implementation of new process\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help getting implementation running\n\n###\n\n", "completion": " Request ###"}
+{"prompt": "Unable to understand how to allocate budget correctly\n\n###\n\n", "completion": " Request ###"}
+{"prompt": "Unable to figure out how to allocate resources\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Desktop in need of a new processor\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting a new printer\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Request to delete existing VM\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Request for help setting up VM\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need assistance to delete VM\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Create virtual machine for me\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Help with creating virtual machine\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Where can I find the latest COVID-19 statistics?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " What are the symptoms of COVID-19?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " What is the incubation period of COVID-19?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Are there any vaccines for COVID-19?\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help installing Windows 10\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Unable to install Mac OS Catalina\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't install Red Hat Linux\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Not able to install CentOS\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Help with installation of Fedora\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't seem to install Manjaro\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't get OpenSUSE to install\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Can't seem to get Solaris installed\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Looking for software to automate marketing campaigns\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need software to analyze customer feedback\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need software to track project progress\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Requesting software to integrate data sources\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Looking for software to analyze financial data\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Please assist with software de-allocation\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " I need help with de-allocating software\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help setting up device authentication\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Need help connecting device to corporate directory\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Device not syncing with company calendars\n\n###\n\n", "completion": " Request ###"}
+{"prompt": " Inability to transfer files between users\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access shared documents\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Cannot connect to video conferencing platform\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Video display not working properly\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Can't access shared whiteboard\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Audio not working on call\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Remote connection repeatedly failed\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Remote access denied due to firewall\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access remote server\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wireless signal drops intermittently\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop not connecting to Wi-Fi\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wi-Fi connection keeps disconnecting\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Wi-Fi connection not appearing in list\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Slow Wi-Fi speed in certain areas\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Weak wireless signal in certain areas\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to connect to the wireless network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to locate stored data\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access data stored in cloud\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is not responding to commands\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is not printing from the computer\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is printing blank pages\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is making a loud noise\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is not connecting wirelessly\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is not printing from USB\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer is not responding to buttons\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Network connection issue when connecting to application\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Frequent application downtime\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Application crashing when saving data\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Intranet page displaying an error message\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Intranet server connecting slowly\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Intranet server password reset\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Intranet server firewall needs updating\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Intranet server not sending emails\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud login not working\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud losing data\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud authentication issue\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud not accessible from certain locations\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud missing configuration settings\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Production Cloud not responding to commands\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Email server not responding\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Computer is running slow\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Keyboard not working\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " USB port not working\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Keyboard keys stuck\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Data is not being transmitted to mainframe\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Mainframe system not printing correctly\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Mainframe system displaying wrong output\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Connectivity issue with mainframe server\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to connect to local network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Cannot access shared files on local network\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Issues connecting to local database\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Local IP address not responding\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Network cable is not detected\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Can't connect to local FTP server\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Printer won't turn on\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Error message when attempting to open software\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Need to install printer drivers\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Display is flickering\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Unable to access shared folder\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Server hosting down - no response\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Server hosting service not running\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Server hosting storage space full\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Server hosting not responding to requests\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Need assistance connecting to Wi-Fi\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Email not sending/receiving\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Mouse not working\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Need to enable encryption\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Difficulty connecting to Wi-Fi\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Desktop not responding\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Issues with laptop display\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Issue with software installation\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop is randomly shutting down\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop is getting too hot\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop is not booting up\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop is not responding to touchpad\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop upgrade needed for slow performance\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Hard drive needs to be upgraded\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Laptop needs to be serviced due to slow performance\n\n###\n\n", "completion": " Incident###"}
+{"prompt": " Computer not powering on\n\n###\n\n", "completion": " Incident###"}
